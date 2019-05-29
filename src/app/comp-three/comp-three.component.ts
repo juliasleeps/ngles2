@@ -15,4 +15,9 @@ export class CompThreeComponent implements OnInit {
   returnTitle() {
     this.outputText3.emit(this.title3.toUpperCase());
   }
+
+  submit(f) { 
+    console.log(f.value);
+  }
+
 }
